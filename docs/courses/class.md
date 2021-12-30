@@ -37,6 +37,8 @@ ReactDOM.render(<MyComponent/>, document.getElementById('test'));
 ### props
 
 ```js
+<script src="https://unpkg.com/prop-types@15.6/prop-types.js"></script> // 引入外部库
+
 class MyComponent extends React.Component {
   constructor(props) {
     super(props);
