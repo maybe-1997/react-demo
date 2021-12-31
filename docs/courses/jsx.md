@@ -45,3 +45,15 @@ const Vdom = (
 )
 ReactDOM.render(Vdom, document.getElementById('test'));
 ```
+
+### 注释
+
+```js
+const Vdom = (
+  <h2 id={myId} className='text'>
+    {/* 注释 */}
+    <span style={{fontSize: '100px', background: 'blue'}}>{myText.toUpperCase()}</span>
+  </h2>
+)
+ReactDOM.render(Vdom, document.getElementById('test'));
+```

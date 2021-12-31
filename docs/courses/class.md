@@ -15,11 +15,16 @@ class MyComponent extends React.Component {
     this.state = { isHot: true };
     this.changeWeather = this.changeWeather.bind(this); // 绑定组件方法的 this，防止获取不到
   }
-  changeWeather() { // 组件的方法
+  changeWeather(event) { // 组件的方法
     const { isHot } = this.state;
-    this.setState({ // 改变状态，通过 setState 才能让改变的状态同步到页面上
+    /*
+       1.改变状态，必须通过 setState，才能让改变的状态同步到页面上
+       2.每次调用 setState，都会重新渲染，即调用 render
+    */
+    this.setState({
       isHot: !isHot
     });
+    console.log(event.target.innerText); // event.target 可以拿到绑定事件的元素
   }
   render() {
     const { isHot } = this.state;
