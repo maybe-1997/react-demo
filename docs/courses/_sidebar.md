@@ -7,5 +7,6 @@
   - [**函数式组件**](docs/courses/function.md)
   - [**ref**](docs/courses/ref.md)
   - [**收集表单数据**](docs/courses/form.md)
-   - [**生命周期**](docs/courses/life.md)
+  - [**生命周期**](docs/courses/life.md)
+
 

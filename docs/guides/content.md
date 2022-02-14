@@ -1,11 +1,12 @@
 # 目录结构
 
-### 项目的目录结构
+### 目录结构
 
 ```js
 —— pulic
   —— index.html // 入口 HTML 文档
 —— src
+  —— api // 网络请求模块目录
   —— assets // 静态资源目录
   —— components // 公共组件目录
   —— config // 配置模块目录

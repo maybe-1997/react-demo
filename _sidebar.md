@@ -1,4 +1,4 @@
 - [**主页**](docs/home/)
 - [**基础知识**](docs/courses/)
+- [**进阶指南**](docs/guides/)
 - [**实战教程**](docs/works/)
-- [**源码指南**](docs/guides/)
